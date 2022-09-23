@@ -13,9 +13,9 @@ rep = [];
                 
                 if (rep[k] == array[i] ) {
                     cont++
-                }
-                         
+                }                         
             }
+            
             if (cont == 0) {
                 rep.push(array[i]);
             }   

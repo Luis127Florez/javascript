@@ -1,10 +1,10 @@
-let arr = [1,2,2,4,4,4,4,4,3,3]
+let arr = [1,2,2,4,4,4,4,4,3,3,2,2,2,5,5,5,5,5,5,5,5,5]
 
 let resultado = {}
 let mas=0;
 
 for (const i of arr){
-resultado[i] + 1 || 1
+  resultado[i] = resultado[i] + 1 || 1
 } 
 console.log(resultado);
 
