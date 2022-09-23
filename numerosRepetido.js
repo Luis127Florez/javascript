@@ -1,19 +1,4 @@
-function soloString (array){
-    
-    for (let i = 0; i < array.length; i++) {
-        var C = array[i]
-
-        if ( isNaN(C) ) {
-            console.log( array[i])
-        }        
-    }   
-}
-
-const array = [1, "Henry", 2,"Tony"]
-
-soloString(array)
-
-
+// muestra los numero repetidos de un array
 array = [1,1,3,3,4,5,6,7,8,8,9,10];
 
 rep = [];
@@ -29,10 +14,11 @@ rep = [];
                 if (rep[k] == array[i] ) {
                     cont++
                 }
-                if (cont == 0) {
-                    rep.push(array[i]);
-            }            
+                         
             }
+            if (cont == 0) {
+                rep.push(array[i]);
+            }   
             
             
         }
