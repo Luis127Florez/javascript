@@ -5,6 +5,9 @@ array.splice(2, 0, 5);
     console.log(element)
 });
  */
+console.log(array)
 
 let Narray = array.map(i => i + 3 );
 console.log(Narray);
+
+
